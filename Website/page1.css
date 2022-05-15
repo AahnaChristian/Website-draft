@@ -1,0 +1,10 @@
+body{
+  text-align: center;
+  background: url("img/darkrestaurant.jpg"); 
+  color: rgb(235, 216, 191);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h5,h6 {
+font-size: large ;
+}
