@@ -24,8 +24,10 @@ console.log(queIn);
 // Answer vertfiy and marks
 
 // Question one 
+//  Add "El" to every ansInput1 variable
  if (ansInput1 === 'oui') {
      ansInput1El.style.border = '2px solid green';
+//   Create a variable for this first so that it can make changes to that vairable; because there is no variable with the name "totalMar".
     totalMar++;
     feedback1El.innerHTML = ' Correct';
  } else if (ansInput1 !== 'oui') {
@@ -75,6 +77,7 @@ if (ansInput5 === 'la forme de la protéine') {
   
 
 //Total marks after addition 
+//  Where is thus element in the HTML?
 totalmarkEl.innerHTML = +totalMar;
 
 //Precent calculation
